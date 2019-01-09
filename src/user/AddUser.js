@@ -100,8 +100,13 @@ class AddUser extends Component {
     }
     return (
       <div className="container">
-        <h2>ADD USER</h2>
-
+        <div className="row">
+          <div className="col-md-offset-3 col-md-6">
+            <div className="text-center">
+              <h2>ADD USER</h2>
+            </div>
+          </div>
+        </div>
         <form onSubmit={this.handleSubmit}>
           <div className="form-group">
             <label for="userid">User Id:</label>

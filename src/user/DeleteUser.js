@@ -31,12 +31,17 @@ class DeleteUser extends Component {
   render() {
     return (
       <div className="container">
-        {this.state.users.length > 0 ? (
-          <h2>Display User Records</h2>
-        ) : (
-          <h2> No User Records</h2>
-        )}
-
+        <div className="row">
+          <div className="col-md-offset-3 col-md-6">
+            <div className="text-center">
+              {this.state.users.length > 0 ? (
+                <h2>Display User Records</h2>
+              ) : (
+                <h2> No User Records</h2>
+              )}
+            </div>
+          </div>
+        </div>
         {this.state.users.length > 0 ? (
           <div className="tableOrder">
             <table class="table table-bordered">

@@ -84,8 +84,13 @@ class EditUser extends Component {
     }
     return (
       <div className="container">
-        <h3>Update User</h3>
-
+        <div className="row">
+          <div className="col-md-offset-3 col-md-6">
+            <div className="text-center">
+              <h3>Update User</h3>
+            </div>
+          </div>
+        </div>
         <form onSubmit={this.handleSubmit}>
           <div className="form-group">
             <label for="userid">User Id:</label>
