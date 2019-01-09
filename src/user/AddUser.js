@@ -54,6 +54,7 @@ class AddUser extends Component {
       });
       this.state.users.push(user);
       sessionStorage.setItem("userData", JSON.stringify(this.state.users));
+      alert("User Added Successfully");
       /*axios.post("userdetails.json", { user }).then(res => {
         console.log(res);
         console.log(res.data);

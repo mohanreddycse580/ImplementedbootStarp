@@ -26,6 +26,7 @@ class DeleteUser extends Component {
     this.state.users.splice(updateIndex, 1);
     this.setState({ users: this.state.users });
     sessionStorage.setItem("userData", JSON.stringify(this.state.users));
+    alert("User hasbeen Deleted  ");
   }
 
   render() {

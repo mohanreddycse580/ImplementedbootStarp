@@ -54,6 +54,7 @@ class EditUser extends Component {
       this.setState({ users });
 
       sessionStorage.setItem("userData", JSON.stringify(users));
+      alert("Successfully Updated User ");
     }
   };
   componentWillMount() {
