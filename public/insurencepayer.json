@@ -1,0 +1,16 @@
+[
+  {
+    "payer_name": "MohanReddy",
+    "claim_id": "CTS20180101",
+    "claim_amount_submited": "15000",
+    "claim_amount_approved": "10000",
+    "claim_aproval_status": "Approved"
+  },
+  {
+    "payer_name": "SahasraReddy",
+    "claim_id": "CTS20180102",
+    "claim_amount_submited": "100000",
+    "claim_amount_approved": "0",
+    "claim_aproval_status": "pending"
+  }
+]

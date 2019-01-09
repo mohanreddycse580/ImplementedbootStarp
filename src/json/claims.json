@@ -1,0 +1,20 @@
+[
+  {
+    "claim_id": "CTS20180101",
+    "user_id": "C703817",
+    "claim_name": "claim1",
+    "claim_amount": "10000",
+    "claim_submited_date": "12/28/2018",
+    "hospital_name": "hosptital1",
+    "claim_status": "Approved"
+  },
+  {
+    "claim_id": "CTS20180102",
+    "user_id": "C703818",
+    "claim_name": "claim2",
+    "claim_amount": "100000",
+    "claim_submited_date": "12/28/2017",
+    "hospital_name": "hosptital2",
+    "claim_status": "pending"
+  }
+]
