@@ -88,7 +88,7 @@ class EditUser extends Component {
         <div className="row">
           <div className="col-md-offset-3 col-md-6">
             <div className="text-center">
-              <h3>Update User</h3>
+              <h3 className="texalign">Update User</h3>
             </div>
           </div>
         </div>

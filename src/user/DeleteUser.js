@@ -36,9 +36,9 @@ class DeleteUser extends Component {
           <div className="col-md-offset-3 col-md-6">
             <div className="text-center">
               {this.state.users.length > 0 ? (
-                <h2>Display User Records</h2>
+                <h2 className="texalign">Display User Records</h2>
               ) : (
-                <h2> No User Records</h2>
+                <h2 className="texalign"> No User Records</h2>
               )}
             </div>
           </div>

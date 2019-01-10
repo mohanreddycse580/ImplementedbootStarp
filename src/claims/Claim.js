@@ -54,9 +54,10 @@ class Claim extends React.Component {
   };
   render() {
     const havingClaims = this.state.havingClaims;
+
     return (
       <div className="container">
-        <h3>CLAIM DETAILS </h3>
+        <h3 className="texalign">CLAIM DETAILS </h3>
 
         <div className="form-group">
           <select className="form-control" onChange={this.handleChange}>

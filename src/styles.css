@@ -1,23 +1,15 @@
-.bg {
-  padding: 200px 500px 500px 300px;
-  text-align: center;
-  /* The image used */
-  background-image: url("suncorp.png");
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .footer {
   position: fixed;
   left: 0;
   bottom: 0;
+  height: 7%;
   width: 100%;
   background-color: rgb(0, 174, 255);
   color: white;
+  text-align: center;
+}
+
+.texalign {
+  padding-top: 100px;
   text-align: center;
 }

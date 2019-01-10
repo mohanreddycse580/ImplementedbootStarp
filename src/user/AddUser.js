@@ -104,7 +104,7 @@ class AddUser extends Component {
         <div className="row">
           <div className="col-md-offset-3 col-md-6">
             <div className="text-center">
-              <h2>ADD USER</h2>
+              <h2 className="texalign">ADD USER</h2>
             </div>
           </div>
         </div>

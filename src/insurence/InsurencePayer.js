@@ -56,7 +56,7 @@ class InsurenePayer extends React.Component {
     const havinginsurence = this.state.havinginsurence;
     return (
       <div className="container">
-        <h3>INSURENCE PAYER DETAILS </h3>
+        <h3 className="texalign">INSURENCE PAYER DETAILS </h3>
         <div className="form-group">
           <select className="form-control" onChange={this.handleChange}>
             <option value="" selected>
